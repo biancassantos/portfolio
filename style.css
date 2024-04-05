@@ -95,20 +95,19 @@ header {
     color: var(--dark-brown);
 }
 
-.info-container button {
+.info-container .contact-btn {
     padding: 15px 20px;
-    border: none;
     border-radius: 20px;
     color: var(--bg-color);
     text-transform: uppercase;
+    text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
     background-color: var(--medium-brown);
-    cursor: pointer;
     transition: .3s;
 }
 
-.info-container button:hover {
+.info-container .contact-btn:hover {
     background-color: var(--dark-brown);
 }
 
