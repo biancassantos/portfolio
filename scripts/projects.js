@@ -1,5 +1,11 @@
 const projects = [
     {
+        name: 'warms',
+        img: 'img/warms.jpg',
+        className: 'warms',
+        imgLink: 'https://biancassantos.github.io/warms/',
+        projectLink: 'https://github.com/biancassantos/warms'
+    },{
         name: 'Triton Aquarium',
         img: 'img/triton-aquarium.jpg',
         className: 'triton',
