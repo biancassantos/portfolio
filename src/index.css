@@ -154,12 +154,17 @@ a {
 
 .about-page-container .about-text h2 {
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 3px;
 }
 
 .items-list {
   list-style-type: none;
+  font-size: 1.1rem;
+}
+
+.items-list li {
+  margin-bottom: 5px;
 }
 
 .items-list li::before {
