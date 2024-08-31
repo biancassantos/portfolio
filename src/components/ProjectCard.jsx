@@ -5,7 +5,7 @@ const ProjectCard = ({ name, img, imgLink, projectLink, viewProject }) => {
   return (
     <div className="card">
       <Link to={imgLink} target="_blank">
-        <img src={`../${img}`} alt={name} />
+        <img src={img} alt={name} />
       </Link>
 
       <div className="card-info">
