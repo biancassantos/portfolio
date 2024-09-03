@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import LanguageBtn from "../components/ui/LanguageBtn";
 import Hero from "../components/Hero.jsx";
@@ -8,6 +8,7 @@ const Homepage = () => {
   const [info, setInfo] = useState(infos[0]);
   const [port, setPort] = useState(true);
   const [eng, setEng] = useState(false);
+  const linkRef = useRef()
 
   function showPt() {
     setPort(true)
@@ -21,6 +22,10 @@ const Homepage = () => {
     setInfo(infos[1])
   }
 
+  useEffect(() => {
+    linkRef.current.click()
+  }, [])
+
   return (
     <>
       <div className="language">
@@ -30,7 +35,7 @@ const Homepage = () => {
       <main>
         <Hero phrase1={info.phrase1} phrase2={info.phrase2} contactBtn={info.contactBtn} />
         <nav className="nav-pages">
-          <NavLink to="about">{info.aboutBtn}</NavLink>
+          <NavLink ref={linkRef} to="about">{info.aboutBtn}</NavLink>
           <NavLink to="projects">{info.projectsBtn}</NavLink>
         </nav>
         <Outlet context={[info]} />
