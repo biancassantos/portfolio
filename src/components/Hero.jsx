@@ -15,7 +15,7 @@ const Hero = ({ phrase1, phrase2, contactBtn }) => {
         </h1>
         <div className='socials-icons'>
           <Link to="https://github.com/biancassantos" target='_blank'><FaGithubAlt /></Link>
-          <Link><FaLinkedinIn /></Link>
+          <Link to="https://www.linkedin.com/in/biancassantos89/" target='_blank'><FaLinkedinIn /></Link>
         </div>
         <RoundBtn text={contactBtn} url="mailto:biancassantos89@gmail.com" target='_blank' />
       </div>

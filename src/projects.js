@@ -1,5 +1,11 @@
 const projects = [
   {
+    id: 'pethelp',
+    name: 'Pethelp',
+    img: 'images/pethelp.jpg',
+    imgLink: 'https://biancassantos.github.io/pethelp/',
+    projectLink: 'https://github.com/biancassantos/pethelp'
+  }, {
     id: 'evergreen',
     name: 'Evergreen Interiors',
     img: 'images/evergreen-interiors.jpg',
