@@ -1,5 +1,11 @@
 const projects = [
   {
+    id: 'logdays',
+    name: 'logdays',
+    img: 'images/logdays.jpg',
+    imgLink: 'https://biancassantos.github.io/logdays',
+    projectLink: 'https://github.com/biancassantos/logdays'
+  }, {
     id: 'pethelp',
     name: 'Pethelp',
     img: 'images/pethelp.jpg',
