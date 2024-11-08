@@ -3,6 +3,7 @@
 const LanguageBtn = ({ text, clicked, bg }) => {
   return (
     <button 
+    type="button"
     className={`language-btn ${bg}`} onClick={clicked}>{text}</button>
   )
 }

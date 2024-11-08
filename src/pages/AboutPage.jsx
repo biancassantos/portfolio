@@ -2,7 +2,7 @@ import { useOutletContext } from "react-router-dom";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaFigma } from 'react-icons/fa';
 import ItemsList from "../components/ui/ItemsList";
 import TechIcon from "../components/ui/TechIcon";
-import pfp from '../assets/pfp.jpg'
+import pfp from "../assets/pfp.jpg"
 
 const AboutPage = () => {
   const [info] = useOutletContext();

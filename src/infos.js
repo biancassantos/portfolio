@@ -8,8 +8,7 @@ const infos = [
         title1: "Sobre mim:",
         about: [
             "Olá, eu sou a Bianca, tenho 23 anos e sou uma desenvolvedora Front-End que mora atualmente no Ceará.",
-            "Eu comecei a estudar programação por conta própria, porém agora estou fazendo a faculdade de Engenharia de Software.",
-            "Ainda não tive meu primeiro emprego como desenvolvedora, então todos os meus projetos são fictícios."
+            "Eu comecei a estudar programação por conta própria em 2023, porém agora estou fazendo a faculdade de Engenharia de Software.",
         ],
         title2: "Certificações:",
         certificates: ["Meta Front-End Developer (Coursera)"],
@@ -24,8 +23,7 @@ const infos = [
         title1: "About me:",
         about: [
             "Hello, I'm Bianca, a 23 years old front-end developer from Brazil. ",
-            "I started as a self taught developer, but am currently majoring in Software Engineering.",
-            "I haven't got my first job as a developer yet so my projects are all fictional."
+            "I started as a self taught developer in 2023, but I'm currently majoring in Software Engineering.",
         ],
         title2: "Certifications:",
         certificates: ["Meta Front-End Developer (Coursera)"],
