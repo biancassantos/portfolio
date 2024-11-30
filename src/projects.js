@@ -1,5 +1,11 @@
 const projects = [
   {
+    id: 'product-list-with-cart',
+    name: 'Product list with cart',
+    img: 'images/product-list-with-cart.jpg',
+    imgLink: 'https://biancassantos.github.io/product-list-with-cart',
+    projectLink: 'https://github.com/biancassantos/product-list-with-cart'
+  }, {
     id: 'logdays',
     name: 'logdays',
     img: 'images/logdays.jpg',
