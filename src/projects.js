@@ -1,7 +1,13 @@
 const projects = [
   {
+    id: 'space-tourism',
+    name: 'Space Tourism Website',
+    img: 'images/space-tourism.jpg',
+    imgLink: 'https://biancassantos.github.io/space-tourism-website',
+    projectLink: 'https://github.com/biancassantos/space-tourism-website'
+  }, {
     id: 'product-list-with-cart',
-    name: 'Product list with cart',
+    name: 'Product List With Cart',
     img: 'images/product-list-with-cart.jpg',
     imgLink: 'https://biancassantos.github.io/product-list-with-cart',
     projectLink: 'https://github.com/biancassantos/product-list-with-cart'
