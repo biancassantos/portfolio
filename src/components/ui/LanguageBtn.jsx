@@ -1,10 +1,11 @@
-/* eslint-disable react/prop-types */
-
-const LanguageBtn = ({ text, clicked, bg }) => {
+function LanguageBtn({ text, onClick, isActive }) {
   return (
     <button 
     type="button"
-    className={`language-btn ${bg}`} onClick={clicked}>{text}</button>
+    className={`language-btn ${isActive && "active-btn"}`} 
+    onClick={onClick}>
+      {text}
+    </button>
   )
 }
 

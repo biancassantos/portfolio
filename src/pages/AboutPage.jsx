@@ -1,11 +1,10 @@
-import { useOutletContext } from "react-router-dom";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaFigma } from 'react-icons/fa';
-import ItemsList from "../components/ui/ItemsList";
-import TechIcon from "../components/ui/TechIcon";
-import pfp from "../assets/pfp.jpg"
+import useLanguageContext from '../hooks/useLanguageContext';
+import ItemsList from "../components/ItemsList";
+import TechIcons from '../components/TechIcons';
+import pfp from "../assets/profile-sm.jpg"
 
-const AboutPage = () => {
-  const [info] = useOutletContext();
+function AboutPage() {
+  const { info } = useLanguageContext();
 
   return (
     <section className="about-page-container">
@@ -23,14 +22,7 @@ const AboutPage = () => {
 
         <div>
           <h2>{info.title3}</h2>
-          <div className="icons-container">
-            <TechIcon name="HTML5" icon={<FaHtml5 />}/>
-            <TechIcon name="CSS3" icon={<FaCss3Alt />}/>
-            <TechIcon name="Javascript" icon={<FaJs />}/>
-            <TechIcon name="React" icon={<FaReact />}/>
-            <TechIcon name="Git" icon={<FaGitAlt />}/>
-            <TechIcon name="Figma" icon={<FaFigma />} />
-          </div>
+          <TechIcons />
         </div>
       </article>
     </section>

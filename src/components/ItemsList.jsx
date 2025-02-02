@@ -1,9 +1,11 @@
-/* eslint-disable react/prop-types */
-const ItemsList = ({ list }) => {
+function ItemsList({ list }) {
   return (
     <ul className="items-list">
       {list.map((item, index) => {
-        return (<li key={index}>{item}</li>)
+        return (
+        <li key={index}>
+          {item}
+        </li>)
       })}
     </ul>
   )

@@ -1,13 +1,12 @@
-/* eslint-disable react/prop-types */
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
-const ProjectCard = ({ name, img, imgLink, projectLink, viewProject }) => {
+function ProjectCard({ name, img, imgLink, projectLink, viewProject }) {
   return (
     <div className="card">
       <Link to={imgLink} target="_blank">
         <img src={img} alt={name} />
       </Link>
-
+      
       <div className="card-info">
         <h3>{name}</h3>
         <Link to={projectLink} target="_blank">

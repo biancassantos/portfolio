@@ -1,7 +1,6 @@
-/* eslint-disable react/prop-types */
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
-const RoundBtn = ({ text, url }) => {
+function RoundBtn({ text, url }) {
   return (
     <button type="button" className="round-btn">
       <Link to={url}>{text}</Link>
@@ -9,4 +8,4 @@ const RoundBtn = ({ text, url }) => {
   )
 }
 
-export default RoundBtn
+export default RoundBtn;

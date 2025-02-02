@@ -1,14 +1,15 @@
-import { useOutletContext } from "react-router-dom";
+import useLanguageContext from "../hooks/useLanguageContext";
 import ProjectCard from "../components/ProjectCard";
-import projects from "../projects";
+import projects from "../data/projects";
 
-const ProjectsPage = () => {
-  const [info] = useOutletContext();
+function ProjectsPage() {
+  const { info } = useLanguageContext();
 
   return (
     <section className="projects-container">
       {projects.map((project) => {
-        return (<ProjectCard 
+        return (
+        <ProjectCard 
         key={project.id}
         name={project.name}
         img={project.img}

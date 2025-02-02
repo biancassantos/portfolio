@@ -1,26 +1,30 @@
-/* eslint-disable react/prop-types */
-import { Link } from 'react-router-dom';
-import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
+import useLanguageContext from '../hooks/useLanguageContext';
+import SocialsIcons from './ui/SocialsIcons';
 import RoundBtn from './ui/RoundBtn';
 import heroImg from '../assets/hero-img.png';
 
-const Hero = ({ phrase1, phrase2, contactBtn }) => {
+function Hero() {
+  const { info } = useLanguageContext();
+
   return (
     <section className='hero'>
       <div className='hero-text'>
         <h1>
-          {phrase1}<br/>
+          {info.phrase1}<br/>
           <span>Bianca Santos,</span><br/>
-          {phrase2}
+          {info.phrase2}
         </h1>
-        <div className='socials-icons'>
-          <Link to="https://github.com/biancassantos" target='_blank'><FaGithubAlt /></Link>
-          <Link to="https://www.linkedin.com/in/biancassantos89/" target='_blank'><FaLinkedinIn /></Link>
-        </div>
-        <RoundBtn text={contactBtn} url="mailto:biancassantos89@gmail.com" target='_blank' />
+
+        <SocialsIcons />
+
+        <RoundBtn 
+        text={info.contactBtn} 
+        url="mailto:biancassantos89@gmail.com" 
+        target='_blank' />
       </div>
+
       <div className='hero-img'>
-        <img src={heroImg} alt="hero image" />
+        <img src={heroImg} alt="Angle brackets and a slash" />
       </div>
     </section>
   )
