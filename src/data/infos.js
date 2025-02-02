@@ -1,33 +1,41 @@
 const infos = [
     {
-        phrase1: "Olá! Eu sou",
-        phrase2: "Desenvolvedora Front-End.",
+        firstText: "Olá! Eu sou a",
+        secondText: "Desenvolvedora Front-End.",
         contactBtn: "mande um email",
         aboutBtn: "sobre mim",
         projectsBtn: "projetos recentes",
-        title1: "Sobre mim:",
+        aboutTitle: "Sobre mim:",
         about: [
-            "Olá, eu sou a Bianca, tenho 23 anos e sou uma desenvolvedora Front-End que mora atualmente no Ceará.",
-            "Eu comecei a estudar programação por conta própria em 2023, porém agora estou fazendo a faculdade de Engenharia de Software.",
+            "Comecei a estudar programação por conta própria em 2023 e atualmente estou fazendo a faculdade de Engenharia de Software na Uninter;",
+            "Sou do Rio de Janeiro, porém, no presente, estou morando no Ceará;"
         ],
-        title2: "Certificações:",
-        certificates: ["Meta Front-End Developer (Coursera)"],
-        title3: "Tecnologias com que trabalho:",
+        certificatesTitle: "Certificações:",
+        certificates: [
+            "Meta Front-End Developer (2024 - Coursera)",
+            "English Certificate C1 Advanced (2024 - EF SET)",
+            "GitHub Copilot (2025 - DIO)"
+        ],
+        techsTitle: "Tecnologias com que trabalho:",
         viewProject: "Ver pasta do projeto >"
     }, {
-        phrase1: "Hello! I am",
-        phrase2: "Front-End Developer.",
+        firstText: "Hello! I am",
+        secondText: "Front-End Developer.",
         contactBtn: "contact me",
         aboutBtn: "about me",
         projectsBtn: "recent projects",
-        title1: "About me:",
+        aboutTitle: "About me:",
         about: [
-            "Hello, I'm Bianca, a 23 years old front-end developer from Brazil. ",
-            "I started as a self taught developer in 2023, but I'm currently majoring in Software Engineering.",
+            "I started as a self taught developer in 2023 and am currently an undergraduate in Software Engineering;",
+            "I am from Brazil;"
         ],
-        title2: "Certifications:",
-        certificates: ["Meta Front-End Developer (Coursera)"],
-        title3: "Technologies I work with:",
+        certificatesTitle: "Certifications:",
+        certificates: [
+            "Meta Front-End Developer (Coursera)",
+            "English Certificate C1 Advanced (2024 - EF SET)",
+            "GitHub Copilot (2025 - DIO)"
+        ],
+        techsTitle: "Technologies I work with:",
         viewProject: "View project's folder >"
     }
 ]

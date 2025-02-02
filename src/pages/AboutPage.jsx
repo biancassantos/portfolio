@@ -11,17 +11,17 @@ function AboutPage() {
       <img src={pfp} alt="Bianca Santos" />
       <article className="about-text">
         <div>
-          <h2>{info.title1}</h2>
+          <h2>{info.aboutTitle}</h2>
           <ItemsList list={info.about} />
         </div>
 
         <div>
-          <h2>{info.title2}</h2>
+          <h2>{info.certificatesTitle}</h2>
           <ItemsList list={info.certificates} />
         </div>
 
         <div>
-          <h2>{info.title3}</h2>
+          <h2>{info.techsTitle}</h2>
           <TechIcons />
         </div>
       </article>

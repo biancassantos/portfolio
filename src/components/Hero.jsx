@@ -10,9 +10,9 @@ function Hero() {
     <section className='hero'>
       <div className='hero-text'>
         <h1>
-          {info.phrase1}<br/>
+          {info.firstText}<br/>
           <span>Bianca Santos,</span><br/>
-          {info.phrase2}
+          {info.secondText}
         </h1>
 
         <SocialsIcons />
