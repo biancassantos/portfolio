@@ -1,5 +1,11 @@
 const projects = [
   {
+    id: 'everybook',
+    name: 'EveryBook',
+    img: 'images/everybook.jpg',
+    imgLink: 'https://everybook.vercel.app/',
+    projectLink: 'https://github.com/biancassantos/everybook'
+  },{
     id: 'space-tourism',
     name: 'Space Tourism Website',
     img: 'images/space-tourism.jpg',
