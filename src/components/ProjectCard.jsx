@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 
 function ProjectCard({ name, img, imgLink, projectLink, viewProject }) {
   return (
@@ -10,7 +11,7 @@ function ProjectCard({ name, img, imgLink, projectLink, viewProject }) {
       <div className="card-info">
         <h3>{name}</h3>
         <Link to={projectLink} target="_blank">
-          {viewProject}
+          {viewProject} <FaArrowUpRightFromSquare />
         </Link>
       </div>
     </div>
