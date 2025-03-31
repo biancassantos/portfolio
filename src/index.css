@@ -120,6 +120,17 @@ a {
   color: #000;
 }
 
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px
+}
+
+.icons-container img {
+  width: 35px;
+}
+
 /* --- NAV PAGES --- */
 .nav-pages {
   display: flex;
@@ -163,21 +174,12 @@ a {
 }
 
 .items-list li {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .items-list li::before {
   content: '- ';
   color: #99B1DA;
-}
-
-.icons-container svg {
-  color: #99B1DA;
-  font-size: 1.8rem;
-}
-
-abbr:not(:last-child) {
-  margin-right: 10px;
 }
 
 /* --- PROJECTS --- */
@@ -286,6 +288,7 @@ abbr:not(:last-child) {
     flex-direction: column;
     gap: 2rem;
     padding: 4rem 0 2rem 0;
+    height: 80vh;
   }
 
   .hero-text {
@@ -293,11 +296,15 @@ abbr:not(:last-child) {
   }
 
   .hero-text h1 {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
+  }
+
+  .icons-container img {
+    width: 30px;
   }
 
   .hero-img {
-    width: 50%;
+    display: none;
   }
 
   .about-page-container {
@@ -319,7 +326,7 @@ abbr:not(:last-child) {
     padding: 2rem 0;
   }
 
-  .hero-img {
-    width: 60%;
+  .hero-text h1 {
+    font-size: 2.5rem;
   }
 }

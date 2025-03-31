@@ -16,7 +16,6 @@ const infos = [
             "English Certificate C1 Advanced (2024 - EF SET)",
             "GitHub Copilot (2025 - DIO)"
         ],
-        techsTitle: "Tecnologias com que trabalho:",
         viewProject: "Ver repositório do projeto",
         viewAllProjects: "Ver todos os projetos no GitHub"
     }, {
@@ -36,7 +35,6 @@ const infos = [
             "English Certificate C1 Advanced (2024 - EF SET)",
             "GitHub Copilot (2025 - DIO)"
         ],
-        techsTitle: "Technologies I work with:",
         viewProject: "View project's repository",
         viewAllProjects: "View all projects on GitHub"
     }

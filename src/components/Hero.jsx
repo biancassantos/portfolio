@@ -1,6 +1,7 @@
 import useLanguageContext from '../hooks/useLanguageContext';
 import SocialsIcons from './ui/SocialsIcons';
 import RoundBtn from './ui/RoundBtn';
+import TechIcons from './TechIcons';
 import heroImg from '../assets/hero-img.png';
 
 function Hero() {
@@ -21,6 +22,8 @@ function Hero() {
         text={info.contactBtn} 
         url="mailto:biancassantos89@gmail.com" 
         target='_blank' />
+
+        <TechIcons />
       </section>
 
       <div className='hero-img'>

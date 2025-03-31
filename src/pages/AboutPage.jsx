@@ -1,6 +1,5 @@
 import useLanguageContext from '../hooks/useLanguageContext';
 import ItemsList from "../components/ItemsList";
-import TechIcons from '../components/TechIcons';
 import pfp from "../assets/profile-sm.jpg"
 
 function AboutPage() {
@@ -18,11 +17,6 @@ function AboutPage() {
         <section>
           <h2>{info.certificatesTitle}</h2>
           <ItemsList list={info.certificates} />
-        </section>
-
-        <section>
-          <h2>{info.techsTitle}</h2>
-          <TechIcons />
         </section>
       </article>
     </section>
