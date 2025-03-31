@@ -12,8 +12,8 @@ function NavPages() {
 
   return (
     <nav className="nav-pages">
-      <NavLink ref={linkRef} to="/portfolio/about">{info.aboutBtn}</NavLink>
-      <NavLink to="/portfolio/projects">{info.projectsBtn}</NavLink>
+      <NavLink ref={linkRef} to="/about">{info.aboutBtn}</NavLink>
+      <NavLink to="/projects">{info.projectsBtn}</NavLink>
     </nav>
   )
 }
