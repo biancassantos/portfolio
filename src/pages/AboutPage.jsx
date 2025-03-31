@@ -10,20 +10,20 @@ function AboutPage() {
     <section className="about-page-container">
       <img src={pfp} alt="Bianca Santos" />
       <article className="about-text">
-        <div>
+        <section>
           <h2>{info.aboutTitle}</h2>
           <ItemsList list={info.about} />
-        </div>
+        </section>
 
-        <div>
+        <section>
           <h2>{info.certificatesTitle}</h2>
           <ItemsList list={info.certificates} />
-        </div>
+        </section>
 
-        <div>
+        <section>
           <h2>{info.techsTitle}</h2>
           <TechIcons />
-        </div>
+        </section>
       </article>
     </section>
   )

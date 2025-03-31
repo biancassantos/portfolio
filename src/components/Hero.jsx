@@ -8,7 +8,7 @@ function Hero() {
 
   return (
     <section className='hero'>
-      <div className='hero-text'>
+      <section className='hero-text'>
         <h1>
           {info.firstText}<br/>
           <span>Bianca Santos,</span><br/>
@@ -21,7 +21,7 @@ function Hero() {
         text={info.contactBtn} 
         url="mailto:biancassantos89@gmail.com" 
         target='_blank' />
-      </div>
+      </section>
 
       <div className='hero-img'>
         <img src={heroImg} alt="Angle brackets and a slash" />
