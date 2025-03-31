@@ -12,12 +12,6 @@ const projects = [
     imgLink: 'https://biancassantos.github.io/space-tourism-website',
     projectLink: 'https://github.com/biancassantos/space-tourism-website'
   }, {
-    id: 'product-list-with-cart',
-    name: 'Product List With Cart',
-    img: 'images/product-list-with-cart.jpg',
-    imgLink: 'https://biancassantos.github.io/product-list-with-cart',
-    projectLink: 'https://github.com/biancassantos/product-list-with-cart'
-  }, {
     id: 'logdays',
     name: 'logdays',
     img: 'images/logdays.jpg',
@@ -35,12 +29,6 @@ const projects = [
     img: 'images/evergreen-interiors.jpg',
     imgLink: 'https://biancassantos.github.io/evergreen-interiors/',
     projectLink: 'https://github.com/biancassantos/evergreen-interiors'
-  }, {
-    id: 'triton',
-    name: 'Triton Aquarium',
-    img: 'images/triton-aquarium.jpg',
-    imgLink: 'https://biancassantos.github.io/aquarium-project/',
-    projectLink: 'https://github.com/biancassantos/aquarium-project'
   }
 ]
 

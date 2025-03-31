@@ -17,7 +17,8 @@ const infos = [
             "GitHub Copilot (2025 - DIO)"
         ],
         techsTitle: "Tecnologias com que trabalho:",
-        viewProject: "Ver pasta do projeto >"
+        viewProject: "Ver pasta do projeto >",
+        viewAllProjects: "Ver todos os projetos no GitHub"
     }, {
         firstText: "Hello! I am",
         secondText: "Front-End Developer.",
@@ -36,7 +37,8 @@ const infos = [
             "GitHub Copilot (2025 - DIO)"
         ],
         techsTitle: "Technologies I work with:",
-        viewProject: "View project's folder >"
+        viewProject: "View project's folder >",
+        viewAllProjects: "View all projects on GitHub"
     }
 ]
 

@@ -226,6 +226,20 @@ abbr:not(:last-child) {
   text-decoration: underline;
 }
 
+.view-all {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #99B1DA;
+  font-weight: 500;
+  font-size: .9rem;
+  transition: .3s;
+}
+
+.view-all:hover {
+  scale: 1.1;
+}
+
 /* --- SCROLLBAR --- */
 ::-webkit-scrollbar {
   width: 12px;

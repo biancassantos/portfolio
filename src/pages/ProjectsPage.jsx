@@ -1,6 +1,8 @@
+import { Link } from "react-router";
 import useLanguageContext from "../hooks/useLanguageContext";
 import ProjectCard from "../components/ProjectCard";
 import projects from "../data/projects";
+import { FaGithub } from 'react-icons/fa';
 
 function ProjectsPage() {
   const { info } = useLanguageContext();
@@ -18,6 +20,10 @@ function ProjectsPage() {
         viewProject={info.viewProject}
         />)
       })}
+
+      <Link className="view-all" to="https://github.com/biancassantos?tab=repositories" target="_blank">
+        {info.viewAllProjects} <FaGithub />
+      </Link>
     </section>
   )
 }
