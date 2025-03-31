@@ -1,5 +1,5 @@
 import { Outlet } from "react-router";
-import LanguageSelector from "../components/LanguageSelector";
+import LanguageSelector from "../components/LanguageSelector"
 import Hero from "../components/Hero";
 import NavPages from "../components/ui/NavPages";
 
