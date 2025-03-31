@@ -18,6 +18,7 @@ function ProjectsPage() {
         imgLink={project.imgLink}
         projectLink={project.projectLink}
         viewProject={info.viewProject}
+        techs={project.techs}
         />)
       })}
 

@@ -206,20 +206,37 @@ abbr:not(:last-child) {
   opacity: 1;
 }
 
-.card .card-info {
+.card-info {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
   padding: 1rem;
   text-align: center;
 }
 
-.card .card-info h3 {
+.card-info h3 {
   font-size: 1.1rem;
-  margin-bottom: 20px;
+  
 }
 
-.card .card-info a {
+.card-info .techs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.card-info .techs-container .tech-tag {
+  text-transform: uppercase;
+  font-size: .85rem;
+  background-color: #f1f1f1;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.card-info a {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -227,7 +244,7 @@ abbr:not(:last-child) {
   font-size: .9rem;
 }
 
-.card .card-info a:hover {
+.card-info a:hover {
   text-decoration: underline;
 }
 
