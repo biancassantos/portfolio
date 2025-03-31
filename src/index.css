@@ -11,7 +11,7 @@
 body {
   background-color: #F5F5F5;
   max-width: 1100px;
-  padding: 0rem 1rem;
+  padding: 0 1rem;
   margin: 0 auto;
 }
 
@@ -33,11 +33,10 @@ a {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  padding: 2rem 0rem;
+  padding: 2rem 0;
 }
 
 .language-btn {
-  font-weight: 500;
   padding: 2px 8px;
   background-color: transparent;
 }
@@ -47,13 +46,13 @@ a {
 }
 
 /* --- HERO --- */
-
 .hero {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
   align-items: center;
-  padding: 4rem 0rem;
+  gap: 1rem;
+  padding: 4rem 0;
+  height: 70vh;
 }
 
 .hero-text {
@@ -72,17 +71,17 @@ a {
   color: #99B1DA;
 }
 
-.hero-text .socials-icons a {
+.socials-icons a {
   color: #99B1DA;
   padding: 5px;
   transition: .3s;
 }
 
-.hero-text .socials-icons a:hover {
+.socials-icons a:hover {
   color: #D2DAF2;
 }
 
-.hero-text .socials-icons a svg {
+.socials-icons a svg {
   font-size: 1.5rem;
 }
 
@@ -117,7 +116,7 @@ a {
   color: #FFF;
 }
 
-.hero .round-btn a:hover {
+.hero .round-btn:hover a {
   color: #000;
 }
 
@@ -126,7 +125,7 @@ a {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  padding: 3rem 0rem;
+  padding: 3rem 0;
 }
 
 .nav-pages a.active {
@@ -146,13 +145,13 @@ a {
   border-radius: 50%;
 }
 
-.about-page-container .about-text {
+.about-text {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 3rem;
 }
 
-.about-page-container .about-text div h2 {
+.about-text div h2 {
   font-weight: 700;
   font-size: 1.1rem;
   margin-bottom: 6px;
@@ -187,42 +186,48 @@ abbr:not(:last-child) {
   flex-direction: column;
   align-items: center;
   gap: 4rem;
-  padding: 4rem 0rem;
+  padding: 4rem 0;
 }
 
-.projects-container .card {
+.card {
   max-width: 500px;
   background-color: #FFF;
   border-radius: 15px;
   overflow: hidden;
 }
 
-.projects-container .card img {
+.card img {
   width: 100%;
   opacity: .9;
   transition: .3s;
 }
 
-.projects-container .card img:hover {
+.card img:hover {
   opacity: 1;
 }
 
-.projects-container .card .card-info {
+.card .card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 1rem;
   text-align: center;
 }
 
-.projects-container .card .card-info h3 {
+.card .card-info h3 {
   font-size: 1.1rem;
   margin-bottom: 20px;
 }
 
-.projects-container .card .card-info a {
+.card .card-info a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   color: #99B1DA;
   font-size: .9rem;
 }
 
-.projects-container .card .card-info a:hover {
+.card .card-info a:hover {
   text-decoration: underline;
 }
 
@@ -230,8 +235,9 @@ abbr:not(:last-child) {
   display: flex;
   align-items: center;
   gap: 8px;
+  padding: 10px;
   color: #99B1DA;
-  font-weight: 500;
+  font-weight: 600;
   font-size: .9rem;
   transition: .3s;
 }
@@ -262,7 +268,7 @@ abbr:not(:last-child) {
   .hero {
     flex-direction: column;
     gap: 2rem;
-    padding: 4rem 0rem 2rem 0rem;
+    padding: 4rem 0 2rem 0;
   }
 
   .hero-text {
@@ -293,7 +299,7 @@ abbr:not(:last-child) {
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
-    padding: 2rem 0rem;
+    padding: 2rem 0;
   }
 
   .hero-img {
