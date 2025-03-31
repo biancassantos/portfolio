@@ -1,7 +1,7 @@
 const infos = [
     {
-        firstText: "Olá! Eu sou a",
-        secondText: "Desenvolvedora Front-End.",
+        greeting: "Olá! Eu sou a",
+        stack: "Desenvolvedora Front-End.",
         contactBtn: "mande um email",
         aboutBtn: "sobre mim",
         projectsBtn: "projetos",
@@ -20,8 +20,8 @@ const infos = [
         viewProject: "Ver repositório do projeto",
         viewAllProjects: "Ver todos os projetos no GitHub"
     }, {
-        firstText: "Hello! I am",
-        secondText: "Front-End Developer.",
+        greeting: "Hello! I am",
+        stack: "Front-End Developer.",
         contactBtn: "contact me",
         aboutBtn: "about me",
         projectsBtn: "projects",

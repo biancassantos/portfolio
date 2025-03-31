@@ -10,9 +10,9 @@ function Hero() {
     <section className='hero'>
       <section className='hero-text'>
         <h1>
-          {info.firstText}<br/>
+          {info.greeting}<br/>
           <span>Bianca Santos,</span><br/>
-          {info.secondText}
+          {info.stack}
         </h1>
 
         <SocialsIcons />
