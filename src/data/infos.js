@@ -7,8 +7,7 @@ const infos = [
         projectsBtn: "projetos",
         aboutTitle: "Sobre mim:",
         about: [
-            "Comecei a estudar programação por conta própria em 2023 e atualmente estou fazendo a faculdade de Engenharia de Software na Uninter;",
-            "Sou do Rio de Janeiro, porém, no presente, estou morando no Ceará;"
+            "Sou desenvolvedora front-end e estudante de Engenharia de Software no Centro Universitário Internacional - Uninter. Atualmente moro no Ceará, apesar de ser do Rio de Janeiro. A principal tecnologia com que trabalho é o React, utilizando tanto JavaScript quanto TypeScript."
         ],
         certificatesTitle: "Cursos e Certificações:",
         certificates: [
@@ -26,8 +25,7 @@ const infos = [
         projectsBtn: "projects",
         aboutTitle: "About me:",
         about: [
-            "I started as a self taught developer in 2023 and am currently an undergraduate in Software Engineering;",
-            "I am from Brazil;"
+            "I am a front-end developer and a Software Engineering undergraduate based in Brazil. The main technology I work with is React - with both JavaScript and TypeScript."
         ],
         certificatesTitle: "Courses and Certifications:",
         certificates: [
