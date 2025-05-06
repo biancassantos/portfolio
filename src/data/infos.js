@@ -11,9 +11,11 @@ const infos = [
         ],
         certificatesTitle: "Cursos e Certificações:",
         certificates: [
-            "Meta Front-End Developer (2024 - Coursera)",
+            "Design para quem não é Designer (2025 - PUC-RS)",
+            "Versionamento de Código (2025 - PUC-RS)",
+            "Suzano - Python Developer (2025 - DIO)",
             "English Certificate C1 Advanced (2024 - EF SET)",
-            "GitHub Copilot (2025 - DIO)"
+            "Meta Front-End Developer (2024 - Coursera)"
         ],
         viewProject: "Ver repositório do projeto",
         viewAllProjects: "Ver todos os projetos no GitHub"
@@ -29,9 +31,11 @@ const infos = [
         ],
         certificatesTitle: "Courses and Certifications:",
         certificates: [
-            "Meta Front-End Developer (Coursera)",
+            "Design for non-designers (2025 - PUC-RS)",
+            "Version Control (2025 - PUC-RS)",
+            "Suzano - Python Developer (2025 - DIO)",
             "English Certificate C1 Advanced (2024 - EF SET)",
-            "GitHub Copilot (2025 - DIO)"
+            "Meta Front-End Developer (Coursera)",
         ],
         viewProject: "View project's repository",
         viewAllProjects: "View all projects on GitHub"
