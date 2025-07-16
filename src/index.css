@@ -16,4 +16,5 @@
 body {
   background-color: var(--color-main);
   font-family: var(--font-lato);
+  color: var(--color-lightgray);
 }
