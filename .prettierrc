@@ -4,5 +4,6 @@
   "endOfLine": "crlf",
   "bracketSpacing": true,
   "bracketSameLine": false,
-  "trailingComma": "none"
+  "trailingComma": "none",
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
