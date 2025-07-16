@@ -11,6 +11,21 @@
   --color-main: #1f2234;
   --color-accent: #bd8aea;
   --color-lightgray: #f1f1f1;
+
+  /* - Animations - */
+  --animate-blink: blink 0.9s infinite;
+
+  @keyframes blink {
+    0% {
+      opacity: 0%;
+    }
+    50% {
+      opacity: 100%;
+    }
+    100% {
+      opacity: 0%;
+    }
+  }
 }
 
 body {
