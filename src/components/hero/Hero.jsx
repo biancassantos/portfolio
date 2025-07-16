@@ -1,4 +1,4 @@
-import { useLanguageContext } from "../context/LanguageContext"
+import { useLanguageContext } from "../../context/LanguageContext"
 import { FaRegArrowAltCircleDown } from "react-icons/fa"
 
 function Hero({ contentRef }) {

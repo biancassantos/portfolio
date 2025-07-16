@@ -1,6 +1,6 @@
 import { useRef } from "react"
-import Header from "../components/Header"
-import Hero from "../components/Hero"
+import Header from "../components/header/Header"
+import Hero from "../components/hero/Hero"
 import AboutMe from "../components/about-me/AboutMe"
 
 function Homepage() {

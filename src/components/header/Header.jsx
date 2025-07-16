@@ -1,7 +1,7 @@
-import { useLanguageContext } from "../context/LanguageContext"
-import LanguageButton from "./ui/LanguageButton"
-import brFlag from "../assets/icons/brazil.png"
-import usaFlag from "../assets/icons/usa.png"
+import { useLanguageContext } from "../../context/LanguageContext"
+import LanguageButton from "./LanguageButton"
+import brFlag from "../../assets/icons/brazil.png"
+import usaFlag from "../../assets/icons/usa.png"
 
 function Header() {
   const { language, setLanguage } = useLanguageContext()
