@@ -9,7 +9,7 @@ function AboutMe({ mainContentRef }) {
   return (
     <section
       ref={mainContentRef}
-      className="flex h-screen flex-col items-center gap-10 px-8 py-12"
+      className="flex h-screen flex-col items-center justify-center gap-10 px-8 py-12"
     >
       <Heading text={content.about} />
 
