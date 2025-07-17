@@ -3,6 +3,7 @@ import Header from "../components/header/Header"
 import Hero from "../components/hero/Hero"
 import AboutMe from "../components/about-me/AboutMe"
 import Skills from "../components/skills/Skills"
+import Projects from "../components/projects/Projects"
 
 function Homepage() {
   const mainContentRef = useRef(null)
@@ -14,6 +15,7 @@ function Homepage() {
       <main className="mx-auto max-w-[1100px] py-15">
         <AboutMe mainContentRef={mainContentRef} />
         <Skills />
+        <Projects />
       </main>
     </>
   )
