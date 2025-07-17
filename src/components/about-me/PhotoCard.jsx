@@ -15,7 +15,7 @@ function PhotoCard() {
         <img
           src="/imgs/pfp-back.png"
           alt="Outline"
-          className="border border-white/10 opacity-70 blur-xs"
+          className="border border-white/10 blur-xs"
         />
         <img
           src="/imgs/sticker.png"
