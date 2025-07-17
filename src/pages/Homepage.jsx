@@ -4,6 +4,7 @@ import Hero from "../components/hero/Hero"
 import AboutMe from "../components/about-me/AboutMe"
 import Skills from "../components/skills/Skills"
 import Projects from "../components/projects/Projects"
+import Contact from "../components/contact/Contact"
 
 function Homepage() {
   const mainContentRef = useRef(null)
@@ -16,6 +17,7 @@ function Homepage() {
         <AboutMe mainContentRef={mainContentRef} />
         <Skills />
         <Projects />
+        <Contact />
       </main>
     </>
   )
