@@ -32,7 +32,7 @@ function ContactForm() {
       className="shadow-form flex w-full max-w-[430px] flex-col gap-8 rounded-sm px-6 py-10"
     >
       <input type="hidden" name="subject" value="Nova mensagem via Portfolio" />
-      
+
       <div className="flex flex-col gap-2">
         <label htmlFor="name" className="text-sm font-semibold">
           {content.form.name}
