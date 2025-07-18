@@ -43,7 +43,7 @@ function Projects() {
   }
 
   return (
-    <section className="flex h-screen max-w-[1100px] flex-col items-center justify-center gap-10 bg-[url('../../../public/backgrounds/blob.png')] bg-no-repeat px-8 py-12">
+    <section className="flex h-screen max-w-[1100px] flex-col items-center justify-center gap-10 bg-[url('backgrounds/blob.png')] bg-no-repeat px-8 py-12">
       <Heading
         text={content.projects}
         before="before:content-['<']"

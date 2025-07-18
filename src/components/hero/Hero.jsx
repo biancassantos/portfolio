@@ -9,7 +9,7 @@ function Hero({ contentRef }) {
   }
 
   return (
-    <section className="bg-[url('../../../public/backgrounds/scribble-md.png')] bg-left bg-no-repeat md:bg-[url('../../../public/backgrounds/scribble-lg.png')] lg:bg-right">
+    <section className="bg-[url('backgrounds/scribble-md.png')] bg-left bg-no-repeat md:bg-[url('backgrounds/scribble-lg.png')] lg:bg-right">
       <div className="mx-auto flex h-screen max-w-[1100px] flex-col items-start justify-center gap-4 px-8 py-10">
         <h1 className="font-gabarito text-6xl font-semibold text-shadow-md sm:text-7xl">
           {content.hero.greeting}
