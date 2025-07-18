@@ -3,10 +3,11 @@ const text = [
     hero: {
       greeting: "Olá, eu sou a Bianca",
       stack: "Desenvolvedora Front-end",
-      button: "Conhecer"
+      button: "Ver mais"
     },
     about: "Sobre mim",
-    about_body: "",
+    about_body:
+      "Sou uma estudante de Engenharia de Software e Desenvolvedora Front-End, atualmente morando no Ceará. Apesar de ter iniciado no mundo da programação por conta própria, hoje estou expandindo meus conhecimentos para me tornar uma Desenvolvedora Full-stack Jr. através do curso oferecido pela +praTi. Resolver problemas e a possibilidade de construir soluções que fazem a diferença são o que mais me motivam nessa profissão.",
     skills: "Habilidades",
     projects: "Projetos",
     contact: "Contato",
@@ -25,10 +26,11 @@ const text = [
     hero: {
       greeting: "Hi, I'm Bianca",
       stack: "Front-end Developer",
-      button: "Get to know"
+      button: "See more"
     },
     about: "About me",
-    about_body: "",
+    about_body:
+      "I am a Software Engineering student and Front-end Developer based in Brazil. While I initially began my programming journey independently, I am currently expanding my skill set to become a Full-stack Developer through a course offered by +praTi. I am particularly driven by problem-solving and the opportunity to create new solutions that make a difference.",
     skills: "Skills",
     projects: "Projects",
     contact: "Contact",
