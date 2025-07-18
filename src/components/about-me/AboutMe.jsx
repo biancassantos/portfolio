@@ -13,7 +13,7 @@ function AboutMe({ mainContentRef }) {
     >
       <Heading text={content.about} />
 
-      <section className="flex justify-center gap-8">
+      <section className="flex flex-col items-center justify-center gap-8 md:flex-row">
         <PhotoCard />
         <div className="flex flex-col items-center gap-4">
           <p className="w-full max-w-[380px] text-justify">

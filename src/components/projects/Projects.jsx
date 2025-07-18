@@ -14,7 +14,32 @@ function Projects() {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    initialSlide: 0,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 760,
+        settings: {
+          slidesToShow: 1
+        }
+      },
+      {
+        breakpoint: 400,
+        settings: {
+          slidesToShow: 1,
+          arrows: false
+        }
+      }
+    ]
   }
 
   return (
@@ -25,7 +50,10 @@ function Projects() {
         after="after:content-['_/>']"
       />
 
-      <Slider {...settings} className="w-full max-w-[960px]">
+      <Slider
+        {...settings}
+        className="w-full max-w-[300px] md:max-w-[650px] lg:max-w-[960px]"
+      >
         {projects.map((project) => {
           return (
             <ProjectCard
