@@ -4,6 +4,7 @@ function SocialLink({ name, url }) {
   return (
     <Link
       to={url}
+      target="_blank"
       className="hover:text-accent p-3 font-bold transition-colors duration-300"
     >
       {name}
