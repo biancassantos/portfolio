@@ -1,5 +1,11 @@
 const projects = [
   {
+    id: "plantashop",
+    name: "PlantaShop",
+    img: "imgs/plantashop.jpg",
+    deploy: "https://plantashop.vercel.app/",
+    repository: "https://github.com/biancassantos/mini-loja"
+  },{
     id: "everybook",
     name: "EveryBook",
     img: "imgs/everybook.jpg",
